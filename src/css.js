@@ -1,4 +1,8 @@
 const string = `
+/*
+* 今天制作一个冰墩墩
+* 首先制作冰墩墩的皮肤
+*/
 .skin *{margin:0; padding:0; box-sizing: border-box;}
 .skin *::before, .skin *::after{box-sizing: border-box;}
 
@@ -14,6 +18,9 @@ const string = `
     background: white;    
 }
 
+/*
+* 制作冰墩墩的耳朵
+*/
 .ears{
     background: black;
     width: 71px;
@@ -25,6 +32,10 @@ const string = `
     border-radius: 50%;
     box-shadow: 329px 0 0 0 black;
 }
+
+/*
+* 制作冰墩墩的手
+*/
 .left.hand{
     border: 1px solid black;
     width: 72px;
@@ -77,6 +88,9 @@ const string = `
     background: red;
 }
 
+/*
+* 制作冰墩墩的脚
+*/
 .feet{
     width:75px;
     height: 110px;
@@ -95,6 +109,10 @@ const string = `
     background: black;
     border-radius: 50% 20px 30px 10px;
 }
+
+/*
+* 制作冰墩墩的脸
+*/
 .face{
     width: 278px;
     height: 230px;
@@ -113,6 +131,9 @@ const string = `
       0 0 0 15px green,
       0 0 0 20px red;
 }
+/*
+* 制作冰墩墩的眼睛
+*/
 .eyes{
     width: 70px;
     height: 100px;
@@ -134,6 +155,10 @@ const string = `
     transform: rotate(-70deg);
     position: absolute;
 }
+
+/*
+* 制作冰墩墩的鼻子
+*/
 .nose{
     width: 25px;
     height: 16px;
@@ -143,6 +168,10 @@ const string = `
     left: 180px;
     border-radius: 5px 5px 50% 50%;
 }
+
+/*
+* 制作冰墩墩的嘴巴 
+*/
 .mouth{
     border: 2px solid black;
     width: 30px;
